@@ -18,10 +18,9 @@ it('Navigation component renders', () => {
 
 it('PlayerList component renders', () => {
     const component = render(<PlayerList/>);
-    console.log(component.getByAltText);
 });
 
 it('Player component renders', () => {
   const component = render(<Player/>);
-  console.log(component.getByAltText);
+
 });
